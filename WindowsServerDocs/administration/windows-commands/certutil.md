@@ -1701,6 +1701,8 @@ Where:
 
 - Use `chain\chaincacheresyncfiletime \@now` to effectively flush cached CRLs.
 
+-  Execution of getreg may update the OIDs related to Root Program Auto Update, concequently the related registry keys. 
+
 ### -setreg
 
 Sets a registry value.
